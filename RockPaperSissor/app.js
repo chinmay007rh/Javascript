@@ -21,7 +21,7 @@ if(randomNumber === 1){
 if(randomNumber === 2){
     computerChoice='scissors'
 }
-if(randomNumber === 3){
+if(randomNumber === 4){
     computerChoice='paper'
 }
 console.log(randomNumber)

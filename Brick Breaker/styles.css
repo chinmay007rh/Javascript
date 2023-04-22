@@ -1,6 +1,6 @@
 .grid{
     position: absolute;
-    width: 600px;
+    width: 560px;
     height: 300px;
     border: solid black 2px
 }
@@ -11,3 +11,11 @@ height: 20px;
 background-color: red;
 border: solid blue 1px;
 }
+
+.userStick{ 
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    border: solid blue 1px;
+    }

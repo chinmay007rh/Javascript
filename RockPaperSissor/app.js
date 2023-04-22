@@ -58,6 +58,7 @@ function generateResults(){
     if(computerChoice === "scissors" && userChoice === "scissors"){
         results= "draw"
     }
-
+ 
+    
     resultDisplay.innerHTML= results 
 }

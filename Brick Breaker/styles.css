@@ -4,7 +4,7 @@
     height: 300px;
     border: solid black 2px
 }
-.brick{ 
+.block{ 
 position: absolute;
 width: 100px;
 height: 20px;

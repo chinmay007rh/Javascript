@@ -4,21 +4,8 @@
     </head>
         <body>
         
-           <button onclick="const randomNumber = Math.random();
-
-           let computerMove ='';
-           
-           if(randomNumber >=0 && randomNumber <=1/3)
-           {
-            
-             computerMove ='rock';
-           }else if(randomNumber>= 1/3 && randomNumber<2/3){
-            
-             computerMove ='paper';
-           }else if(randomNumber>= 2/3 && randomNumber <1){
-            
-             computerMove = 'sissors';
-           }
+           <button onclick=" 
+           const computerMove = pickComputerMove();
            console.log(computerMove)
 
            let result ='';
@@ -35,20 +22,8 @@
            alert(`You picked rock. Computer picked ${computerMove} .${result}`);
            ">Rock</button> 
 
-           <button onclick="const randomNumber = Math.random();
-           let computerMove ='';
-           
-           if(randomNumber >=0 && randomNumber <=1/3)
-           {
-            
-             computerMove ='rock';
-           }else if(randomNumber>= 1/3 && randomNumber<2/3){
-            
-             computerMove ='paper';
-           }else if(randomNumber>= 2/3 && randomNumber <1){
-            
-             computerMove = 'sissors';
-           }
+           <button onclick=" 
+           const computerMove = pickComputerMove();
            console.log(computerMove)
 
            let result ='';
@@ -64,21 +39,8 @@
            }
            alert(`You picked Paper. Computer picked ${computerMove} .${result}`);
            ">Paper</button>
-            <button onclick="const randomNumber= Math.random();
-                
-                let computerMove ='';
-            
-            if(randomNumber >=0 && randomNumber <=1/3)
-            {
-                
-                computerMove ='rock';
-            }else if(randomNumber>= 1/3 && randomNumber<2/3){
-                
-                computerMove ='paper';
-            }else if(randomNumber>= 2/3 && randomNumber <1){
-                
-                computerMove = 'sissors';
-            }
+            <button onclick="
+            const computerMove= pickComputerMove();
             console.log(computerMove)
 
             let result ='';
@@ -94,6 +56,26 @@
             }
             alert(`You picked Sissors. Computer picked ${computerMove} .${result}`);
             ">Sissors</button>
+
+            <script>
+                let computerMove ='';
+                function pickComputerMove(){
+                     const randomNumber= Math.random();
+                        
+                    if(randomNumber >=0 && randomNumber <=1/3)
+                    {
+                        
+                        computerMove ='rock';
+                    }else if(randomNumber>= 1/3 && randomNumber<2/3){
+                        
+                        computerMove ='paper';
+                    }else if(randomNumber>= 2/3 && randomNumber <1){
+                        
+                        computerMove = 'sissors';
+                    }
+                return computerMove;
+                }
+            </script>
         </body>
     
 </html>
